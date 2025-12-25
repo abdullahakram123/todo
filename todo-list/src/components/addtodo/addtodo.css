@@ -1,0 +1,48 @@
+.addtodo-nav{
+    display: flex;
+    align-items: center;
+    background-color: #9395D3;
+    height: 118px;
+    width: 600px;
+    gap: 50px;
+}
+.addtodo-h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.addbtn{
+    margin-left:20px ;
+    border: none;
+    background: transparent;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 400px;
+    margin-top: 50px;
+}
+.title-input{
+    border: none;
+    border-bottom:1px solid #8B8787 ;
+    outline: none;
+}
+.detail-input{
+    border: none;
+    border-bottom:1px solid #8B8787 ;
+    outline: none;
+}
+.add-btn{
+    height: 65.06521606445312px;
+    width: 410px;
+    border-radius: 15px;
+    margin-top: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #9395D3;
+    box-shadow: 3px 3px 10px black;
+}

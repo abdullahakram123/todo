@@ -1,0 +1,19 @@
+.comptask-nav{
+    display: flex;
+    align-items: center;
+    background-color: #9395D3;
+    height: 118px;
+    width: 600px;
+    gap: 50px;
+}
+.compbtn{
+    margin-left:20px ;
+    border: none;
+    background: transparent;
+}
+.comp-h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
