@@ -20,7 +20,6 @@ const Dascomp = () => {
                             <h5>{items.Title}</h5>
                             <h6>{items.Detail}</h6>
                         </div>
-
                     </div>
                 ))}
             </center>

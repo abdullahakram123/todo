@@ -1,3 +1,4 @@
+
 .comptask-nav{
     display: flex;
     align-items: center;
@@ -16,4 +17,9 @@
     font-size: 24px;
     font-weight: 600;
     color: white;
+}
+@media (min-width:0px) and (max-width:360px){
+    .comptask-nav{
+        width: 100%;
+    }
 }

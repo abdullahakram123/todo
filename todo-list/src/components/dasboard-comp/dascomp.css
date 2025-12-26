@@ -1,4 +1,4 @@
-.dascopm-list{
+.dascopm-list {
     display: flex;
     width: 550px;
     justify-content: center;
@@ -10,22 +10,37 @@
     box-shadow: 2px 2px 8px;
     margin-bottom: 10px;
 }
-.dascopm-title{
+
+.dascopm-title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
 }
-.dascopm-title h5{
+
+.dascopm-title h5 {
     color: #9395D3;
     font-weight: 700;
     font-size: 13px;
 }
-.dascopm-title h6{
+
+.dascopm-title h6 {
     font-size: 10px;
     font-weight: 400;
 }
-.dascomp-body{
+
+.dascomp-body {
     background-color: #d6d7ef;
     width: 600px;
     height: 700px;
     padding-top: 20px;
+}
+
+@media (min-width:0px)and (max-width:360px) {
+    .dascopm-list{
+       width: 95%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .dascomp-body{
+        width: 100%;
+    }
 }

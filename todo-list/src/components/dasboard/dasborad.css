@@ -1,4 +1,4 @@
-.das-list{
+.das-list {
     display: flex;
     width: 550px;
     justify-content: center;
@@ -11,54 +11,63 @@
     list-style: none;
     margin-bottom: 10px;
 }
-.title{
+
+.title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
 }
-.title h5{
+
+.title h5 {
     color: #9395D3;
     font-weight: 700;
     font-size: 13px;
 }
-.title h6{
+
+.title h6 {
     font-size: 10px;
     font-weight: 400;
 }
-.das-buttons{
+
+.das-buttons {
     display: flex;
     gap: 50px;
     margin-right: 20px;
 }
-.pen{
+
+.pen {
     width: 25px;
     height: 25px;
     background-color: white;
     border: none;
     outline: none;
 }
-.bin{
+
+.bin {
     width: 25px;
     height: 25px;
     background-color: white;
     border: none;
     outline: none;
 }
-.tick{
+
+.tick {
     width: 25px;
     height: 25px;
     background-color: white;
     border: none;
     outline: none;
 }
-.das-body{
+
+.das-body {
     background-color: #d6d7ef;
     width: 600px;
     height: 700px;
     padding-top: 20px;
 }
-.plus{
+
+.plus {
     position: fixed;
-    left:63vw;
+    left: 63vw;
     top: 430px;
     width: 70px;
     height: 70px;
@@ -69,7 +78,8 @@
     background-color: #9395D3;
     border: none;
 }
-.das-footer{
+
+.das-footer {
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -80,15 +90,56 @@
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.all h6{
+
+.all h6 {
     font-size: 10px;
     font-weight: 500;
 }
-.comp{
+
+.comp {
     border: none;
     background: transparent;
 }
-.comp h6{
+
+.comp h6 {
     font-size: 10px;
     font-weight: 500;
+}
+
+@media (min-width:0px) and (max-width:360px) {
+    .das-body {
+        background-color: #d6d7ef;
+        width: 100%;
+        height: 100vh;
+        padding-top: 20px;
+        overflow-x: hidden;
+    }
+
+    .das-list {
+        width: 95%;
+        display: flex;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .das-footer {
+        width: 100%;
+        position: absolute;
+        top: 670px;
+    }
+    .plus{
+        position: fixed;
+        top: 410px;
+    }
+    .das-buttons{
+        display: flex;
+        gap: 25px;
+    }
+}
+@media (min-width:361px) and (max-width:480px) {
+    .plus{
+        position: fixed;
+        top: 475px;
+        left: 100vw;
+    }
 }

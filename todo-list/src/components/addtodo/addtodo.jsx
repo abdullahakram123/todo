@@ -42,8 +42,10 @@ const Addtodo = () => {
                     <h1 className="addtodo-h1">Add Task</h1>
                 </nav>
                 <form className="inputs" onSubmit={submitDetails}>
+                    <div className="data-inputs">
                     <input type="text" name="Title" id="" onChange={handleChange} value={list.Title} placeholder="Title" className="title-input" />
                     <input type="text" name="Detail" id="" onChange={handleChange} value={list.Detail} placeholder="Detail" className="detail-input" />
+                    </div>
                     <input
                         type="submit" value="ADD"
                         className="add-btn"
